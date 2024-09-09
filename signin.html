@@ -1,0 +1,184 @@
+<html>
+<head>
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            height: 85%;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
+        .container {
+            display: flex;
+            width: 800px;
+            height: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+        .left {
+            background:#111;
+            color: white;
+            width: 50%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .left::before {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url('https://placehold.co/400x500') no-repeat center center;
+            background-size: cover;
+            opacity: 0.1;
+        }
+        .left .logo {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .left .welcome-text {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .left .sub-text {
+            font-size: 1em;
+        }
+        .left .site-link {
+            position: absolute;
+            bottom: 20px;
+            font-size: 1em;
+        }
+        .right {
+            background: white;
+            width: 50%;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .right h2 {
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+        .right input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .right .continue-btn {
+            background: linear-gradient(135deg, #ff00cc 0%, #333399 100%);
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .right .social-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            color: white;
+        }
+        .right .twitter-btn {
+            background: #1da1f2;
+        }
+        .right .facebook-btn {
+            background: #3b5998;
+        }
+        .right .social-btn i {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>  <div class="navbar">
+        <div class="logo">
+         <!-- <img src="logo.png "  alt="logo"> -->
+         FitFusion
+         <span>
+          .
+         </span>
+        </div>
+        <ul>
+         <li>
+          <a href="index.html">
+           Home
+          </a>
+         </li>
+       
+         <li>
+          <a href="calories.html">
+           Calories
+           Calculator
+          </a>
+         </li>
+         <li>
+          <a href="getstarted.html">
+           Services
+          </a>
+         </li>
+         <li>
+          <a href="supplement.html">
+           Supplements
+          </a>
+         </li>
+         <li>
+            <a href="#">
+             About
+            </a>
+           </li>
+        </ul>
+        <div class="icons">
+         <i class="fas fa-search">
+         </i>
+         <a href="signin.html">
+            <i class="fas fa-user">
+            </i></a>
+         <button class="contact-btn">
+          CONTACT US
+         </button>
+        </div>
+       </div>
+    </header>
+    <div class="body">
+    <div class="container">
+        <div class="left">
+            <div class="logo">LOGO</div>
+            <div class="welcome-text">Welcome Page</div>
+            <div class="sub-text">Sign in to continue access</div>
+            <div class="site-link">www.yoursite.com</div>
+        </div>
+        <div class="right">
+            <h2>Sign In</h2>
+            <input type="text" placeholder="Email Address">
+            <input type="password" placeholder="Password">
+            <button class="continue-btn">CONTINUE</button>
+            <div style="text-align: center; margin: 20px 0;">or Connect with Social Media</div>
+            <button class="social-btn twitter-btn"><i class="fab fa-twitter"></i> Sign In With Twitter</button>
+            <button class="social-btn facebook-btn"><i class="fab fa-facebook-f"></i> Sign In With Facebook</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>

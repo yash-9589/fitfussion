@@ -1,0 +1,125 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 100vh;
+}
+.container3 {
+    text-align: center;
+    padding: 20px;
+}
+.header {
+    margin-bottom: 20px;
+}
+.header h1 {
+    font-size: 36px;
+    color: #333;
+    display: flex;
+  justify-content: center;
+}
+.header p {
+    font-size: 18px;
+    color: #666;
+    display: flex;
+  justify-content: center;
+}
+.header .btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.calculator {
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+.calculator h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.calculator .toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.calculator .toggle label {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #666;
+}
+.calculator .toggle input {
+    margin-right: 5px;
+}
+.calculator .form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.calculator .form-group label {
+    font-size: 16px;
+    color: #666;
+    flex: 1;
+    display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+.calculator .form-group input,
+.calculator .form-group select {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.calculator .activity-level,
+.calculator .goals {
+    margin-bottom: 20px;
+}
+.calculator .activity-level label,
+.calculator .goals label {
+    display: block;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.calculator .activity-level input,
+.calculator .goals input {
+    margin-right: 10px;
+}
+.getstarted
+{
+    display: flex;
+  justify-content: center;
+}
+
+ .G-btn{
+background-color: #e63946;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  
+}
+
+.chatbot-container {
+    position: absolute;
+    top: 857px; /* adjust the top position as needed */
+    right: 71px; /* adjust the right position as needed */
+    z-index: 1; /* ensure the image is on top of other elements */
+    cursor: pointer;
+  }

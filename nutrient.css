@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #4caf50;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #4caf50;
+    color: white;
+}
+.vegetables {
+    background-color: #d0f0c0;
+}
+.fruits {
+    background-color: #f0e68c;
+}
+.protein {
+    background-color: #f4cccc;
+}
+.grains {
+    background-color: #ffe599;
+}
+.dairy {
+    background-color: #cfe2f3;
+}

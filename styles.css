@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #111;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navbar .logo span {
+    color: #e63946;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.navbar .icons {
+    display: flex;
+    align-items: center;
+}
+.navbar .icons i {
+    margin: 0 10px;
+    font-size: 18px;
+    color: white;
+}
+:hover i{
+    color: yellow;
+}
+.navbar .contact-btn {
+    background-color: #e63946;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: #000;
+}
+.hero .text {
+    max-width: 50%;
+}
+.hero .text h1 {
+    font-size: 64px;
+    margin: 0;
+    line-height: 1.2;
+}
+.hero .text h1 span {
+    color: #e63946;
+}
+.hero .text p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #aaa;
+}
+.hero .text .btn  {
+    background-color: #f7f7f7;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.hero .image {
+    max-width: 50%;
+}
+.hero .image img {
+    width: 100%;
+    border-radius: 10px;
+}
